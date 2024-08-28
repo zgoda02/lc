@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Zamówień</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="number"] {
+            width: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>KALKULATOR ZAMÓWIEŃ</h1>
+    <table>
+        <tr>
+            <th>Przedmiot</th>
+            <th>Ilość</th>
+        </tr>
+        <tr>
+            <td>Vintek</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Pokawka</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Ceram</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Pistolmk2</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Kajdany</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Tłumik</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Kamza</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Ammo9</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+        <tr>
+            <td>Ammo.45</td>
+            <td><input type="number" min="0" value="0"></td>
+        </tr>
+    </table>
+</body>
+</html>
